@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Clely Fernandes</h1>
-<h3 align="center">An enthusiastic full-stack developer from India</h3>
+<h3 align="center">An enthusiastic developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=clely19&label=Profile%20views&color=0e75b6&style=flat" alt="clely19" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=clely19" alt="clely19" /></a> </p>
 
-- 🔭 I’m currently working on **Amazon clone**
+- 🔭 I’m currently working on my **personal website**
 
 - 🌱 I’m currently learning **SQL, MongoDB**
 
