@@ -75,6 +75,13 @@
 
   <br />
 
+<h3 style="color: #7aa2f7;">Languages Used</h3>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=clely19&layout=compact&theme=tokyonight" alt="Top languages used by clely19" />
+  </p>
+
+  <br />
+
   <h3 style="color: #7aa2f7;">Let's Connect</h3>
   <p>
     <a href="https://linkedin.com/in/clely-fernandes" target="_blank">
