@@ -369,6 +369,40 @@
   .pub-title { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; margin-bottom: 4px; }
   .pub-detail { font-size: 12px; color: var(--muted); }
 
+  .github-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .github-card {
+    margin-bottom: 0;
+    padding: 24px;
+  }
+
+  .github-card h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+
+  .github-card p {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .github-card img {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+  }
+
   nav {
     position: sticky;
     top: 0;
@@ -400,6 +434,7 @@
     .skills-grid { grid-template-columns: 1fr; }
     .progress-section { grid-template-columns: 1fr; }
     .stat-strip { grid-template-columns: repeat(2, 1fr); }
+    .github-grid { grid-template-columns: 1fr; }
     .nav-links { display: none; }
   }
 </style>
@@ -721,9 +756,35 @@
   </section>
 </div>
 
+<div class="container" id="github">
+  <section class="section">
+    <div class="section-label"><span class="num">05</span><h2>GitHub Activity</h2></div>
+    <div class="github-grid">
+      <div class="live-card github-card">
+        <h3>Contribution Streak</h3>
+        <p>Daily GitHub consistency and activity</p>
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=clely19&theme=tokyonight&hide_border=true"
+          alt="Clely Fernandes GitHub contribution streak"
+          loading="lazy"
+        />
+      </div>
+      <div class="live-card github-card">
+        <h3>Languages Used</h3>
+        <p>Language share across repositories with percentages</p>
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=clely19&layout=compact&theme=tokyonight&hide_border=true"
+          alt="Clely Fernandes top languages by percentage"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+
 <div class="container">
   <section class="section">
-    <div class="section-label"><span class="num">05</span><h2>Education</h2></div>
+    <div class="section-label"><span class="num">06</span><h2>Education</h2></div>
     <div class="edu-card">
       <div>
         <div class="edu-degree">M.S. Computer Science</div>
@@ -744,7 +805,7 @@
   </section>
 
   <section class="section">
-    <div class="section-label"><span class="num">06</span><h2>Publication</h2></div>
+    <div class="section-label"><span class="num">07</span><h2>Publication</h2></div>
     <div class="pub-card"style="margin-bottom:12px">
       <div class="pub-icon">📄</div>
       <div>
